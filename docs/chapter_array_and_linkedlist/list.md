@@ -228,7 +228,7 @@
 
     ```javascript title="list.js"
     /* 访问元素 */
-    const num = nums[1];  // 访问索引 1 处的元素
+    let num = nums[1];  // 访问索引 1 处的元素
 
     /* 更新元素 */
     nums[1] = 0;  // 将索引 1 处的元素更新为 0
@@ -238,7 +238,7 @@
 
     ```typescript title="list.ts"
     /* 访问元素 */
-    const num: number = nums[1];  // 访问索引 1 处的元素
+    let num: number = nums[1];  // 访问索引 1 处的元素
 
     /* 更新元素 */
     nums[1] = 0;  // 将索引 1 处的元素更新为 0
